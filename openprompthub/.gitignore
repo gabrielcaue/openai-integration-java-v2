@@ -1,0 +1,24 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# IDEs
+.idea/
+*.iml
+
+# Build
+/target/
+/out/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credenciais
+src/main/resources/application.properties
+.env
