@@ -36,3 +36,23 @@ openai-integration-java/
 ├── pom.xml
 ├── README.md
 └── .gitignore
+
+
+
+
+aplication.properties
+# Conexão com PostgreSQL
+spring.datasource.url=jdbc:postgresql://localhost:5432/openprompthub
+spring.datasource.username=seu_usuario
+spring.datasource.password=sua_senha
+
+# JPA e Hibernate
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+
+# Porta padrão do servidor
+server.port=8080
+
+openai.api.key=SUA CHAVE_API_OPENAI
+openai.api.url=https://api.openai.com/v1/chat/completions
